@@ -1,0 +1,141 @@
+# ===========================
+# Java / Maven
+# ===========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+hs_err_pid*
+replay_pid*
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# Spring Boot
+# ===========================
+# 本地配置覆盖（含密钥、数据库密码等）
+storyforge-server/src/main/resources/application-local.yml
+storyforge-server/src/main/resources/application-local.properties
+storyforge-server/src/main/resources/application-dev.yml
+storyforge-server/src/main/resources/application-prod.yml
+
+# ===========================
+# Node.js / Frontend
+# ===========================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# npm / yarn / pnpm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# TypeScript build info
+*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+
+# ===========================
+# Python Service
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+python-service/__pycache__/
+python-service/.venv/
+python-service/venv/
+python-service/.env
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.jks
+secrets/
+
+# ===========================
+# IDE / Editor
+# ===========================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+# 保留推荐扩展配置
+!.vscode/extensions.json
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Docker
+# ===========================
+# 本地 compose override（含密码等）
+docker-compose.override.yml
+docker-compose.local.yml
+
+# ===========================
+# Logs & Temp
+# ===========================
+logs/
+*.log
+*.log.*
+tmp/
+temp/
+upload/
+uploads/
+
+# ===========================
+# Test / Coverage
+# ===========================
+coverage/
+.nyc_output/
+test-results/
+surefire-reports/
+
+# ===========================
+# Kiro IDE
+# ===========================
+.kiro/

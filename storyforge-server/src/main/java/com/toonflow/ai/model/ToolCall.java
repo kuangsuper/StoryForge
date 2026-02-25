@@ -1,0 +1,16 @@
+package com.toonflow.ai.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ToolCall {
+    private String id;
+    private String name;
+    private String arguments; // JSON string
+}
