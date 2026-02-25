@@ -491,3 +491,5 @@ kubectl get pods -l app=storyforge-server
 ## License
 
 [MIT](LICENSE)
+
+作者联系方式WX：kuang293
